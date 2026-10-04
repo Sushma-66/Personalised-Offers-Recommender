@@ -1,4 +1,4 @@
-# Consumer Duty-Aware Recommender for a UK Fintech App
+# Personalised Offers Recommender for a UK Fintech App
 
 **An accurate recommender can still be harmful.** This project builds a personalised recommendation engine for a UK fintech app, shows that optimising for engagement pushes credit and gambling offers to customers already in financial difficulty, and then fixes it with a guardrail layer based on the FCA's Consumer Duty.
 
