@@ -1,0 +1,48 @@
+{
+  "best_params": {
+    "n_factors": 10,
+    "n_epochs": 20,
+    "lr_all": 0.01,
+    "reg_all": 0.02,
+    "random_state": 42
+  },
+  "cv": [
+    {
+      "model": "Random (NormalPredictor)",
+      "RMSE": 1.459,
+      "MAE": 1.178
+    },
+    {
+      "model": "BaselineOnly",
+      "RMSE": 0.978,
+      "MAE": 0.794
+    },
+    {
+      "model": "KNN (item-based)",
+      "RMSE": 1.128,
+      "MAE": 0.888
+    },
+    {
+      "model": "SVD",
+      "RMSE": 0.925,
+      "MAE": 0.748
+    }
+  ],
+  "ranking": [
+    {
+      "model": "Random (NormalPredictor)",
+      "precision@5": 0.056,
+      "recall@5": 0.213
+    },
+    {
+      "model": "BaselineOnly",
+      "precision@5": 0.125,
+      "recall@5": 0.48
+    },
+    {
+      "model": "SVD (tuned)",
+      "precision@5": 0.165,
+      "recall@5": 0.617
+    }
+  ]
+}

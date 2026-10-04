@@ -1,0 +1,32 @@
+item_id,item_name,item_type,risk_level,restricted_if_vulnerable,supportive
+O01,Cashback: supermarket,offer,none,0,0
+O02,Cashback: coffee shops,offer,none,0,0
+O03,Cashback: restaurants,offer,none,0,0
+O04,Cashback: fuel,offer,none,0,0
+O05,Cashback: flights & hotels,offer,none,0,0
+O06,Cashback: fashion,offer,none,0,0
+O07,Cashback: electronics,offer,none,0,0
+O08,Cashback: streaming,offer,none,0,0
+O09,Cashback: cinema,offer,none,0,0
+O10,Cashback: gym,offer,none,0,0
+O11,Cashback: video games,offer,none,0,0
+O12,Free bet: sports betting,offer,high,1,0
+O13,Bonus spins: online casino,offer,high,1,0
+F01,Savings pots,feature,none,0,1
+F02,Round-ups,feature,none,0,1
+F03,Budgeting tool,feature,none,0,1
+F04,Bill splitting,feature,none,0,0
+F05,Salary sorter,feature,none,0,1
+F06,Spending insights,feature,none,0,1
+F07,Credit score checker,feature,none,0,1
+F08,Cancel unused subscriptions,feature,none,0,1
+F09,Free debt advice (MoneyHelper),feature,none,0,1
+F10,Travel insurance add-on,feature,none,0,0
+F11,Gambling block,feature,none,0,1
+C01,Credit card,credit,medium,1,0
+C02,Personal loan,credit,medium,1,0
+C03,Overdraft limit increase,credit,high,1,0
+C04,"Buy now, pay later",credit,high,1,0
+I01,Cash ISA,investment,none,0,1
+I02,Stocks & shares ISA,investment,medium,1,0
+I03,Crypto trading,investment,high,1,0

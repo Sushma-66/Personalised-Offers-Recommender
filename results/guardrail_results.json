@@ -1,0 +1,22 @@
+{
+  "naive": {
+    "% of flagged customers shown a restricted item": 92.74310595065312,
+    "% of flagged customers' slots that are restricted": 37.198838896952104,
+    "% of flagged customers shown a supportive feature": 43.83164005805516,
+    "% of all customers shown credit/risky investment without passing affordability": 54.63333333333333
+  },
+  "guarded": {
+    "% of flagged customers shown a restricted item": 0.0,
+    "% of flagged customers' slots that are restricted": 0.0,
+    "% of flagged customers shown a supportive feature": 100.0,
+    "% of all customers shown credit/risky investment without passing affordability": 0.0
+  },
+  "precision@5": {
+    "naive": 0.1654572940287226,
+    "guarded": 0.13318216175359032
+  },
+  "recall@5": {
+    "naive": 0.6174918115394306,
+    "guarded": 0.4996598639455782
+  }
+}
